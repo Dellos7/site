@@ -1,0 +1,12 @@
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.block-btn {
+    display: block !important;
+    width: 50%;
+    margin: 0 auto !important;
+}
