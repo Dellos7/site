@@ -1,7 +1,18 @@
-title: David López Castellote
-description: Programmer, Web & App developer, IT lover
+# Theme configuration
+theme: jekyll-theme-cayman
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-cayman
+title: David López Castellote
+description: Programmer, Web & App developer, IT lover
+
+# Custom configuration
 profile-picture: david.png
-cv-pdf-file: cv_es.pdf
+cv-pdf-file: cv.pdf
+
+# Internacionalization plugin
+plugins: 
+  - jekyll-multiple-languages-plugin
+
+baseurl: ""
+languages:  ["en", "es", "fr" ] # en is the default language
+#exclude_from_localizations: ['assets']

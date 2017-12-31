@@ -1,14 +1,9 @@
 ---
 layout: default
+permalink: 
 ---
 
-# Hello!
-
-Here will be the **site content**.
-
-## [README](README)
-
-## [Contact me!](contact)
+{% translate_file index.md %}
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.

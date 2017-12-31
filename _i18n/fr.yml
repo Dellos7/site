@@ -1,0 +1,10 @@
+global:
+  en: Anglais
+  es: Espagnol
+  fr: Français
+
+contact:
+  form-name-placeholder: Prénom
+  form-email-placeholder: Votre mel
+  form-message-placeholder: Qu'est-ce que vous voulez raconter moi?
+  form-button-lbl: Envoyer

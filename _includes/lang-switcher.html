@@ -1,0 +1,12 @@
+<article class="lang-switcher">
+    {% for lang in site.languages %}
+    {% if lang != site.lang %}
+        {% if lang == site.languages[0] %}
+            {% capture link %}{{page.url}}{% endcapture %}
+        {% else %}
+            {% capture link %}/{{lang}}{{page.url}}{% endcapture %}
+        {% endif %}
+        <a href="{{link}}" class="">{% t global.{{lang}} %}</a>
+    {% endif %}
+    {% endfor %}
+</article>

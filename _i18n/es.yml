@@ -1,0 +1,10 @@
+global:
+  en: Inglés
+  es: Español
+  fr: Francés
+
+contact:
+  form-name-placeholder: Nombre
+  form-email-placeholder: Email
+  form-message-placeholder: ¿Qué quieres contarme?
+  form-button-lbl: Enviar

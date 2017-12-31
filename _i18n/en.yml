@@ -1,0 +1,10 @@
+global:
+  en: English
+  es: Spanish
+  fr: French
+
+contact:
+  form-name-placeholder: Name
+  form-email-placeholder: Email
+  form-message-placeholder: What do you want to tell me?
+  form-button-lbl: Send

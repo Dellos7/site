@@ -1,0 +1,5 @@
+{% if site.lang == site.languages[0] %}
+    {% capture assets_dir %}/assets{% endcapture %}
+{% else %}
+    {% capture assets_dir %}/assets/{{site.lang}}{% endcapture %}
+{% endif %}
