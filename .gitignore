@@ -1,8 +1,8 @@
 _sass
-_site
+!_site
 /docs
 script
-
+Gemfile
 Gemfile.lock
 jekyll-theme-cayman.gemspec
 LICENSE
