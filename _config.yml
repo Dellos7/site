@@ -15,4 +15,3 @@ plugins:
 
 baseurl: ""
 languages:  ["en", "es", "fr" ] # en is the default language
-#exclude_from_localizations: ['assets']
