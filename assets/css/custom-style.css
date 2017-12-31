@@ -10,3 +10,56 @@
     width: 50%;
     margin: 0 auto !important;
 }
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input, .contact-form textarea  {
+    width: 60%;
+    display: block;
+    /*margin: 2% auto;*/
+    margin: 2% 0;
+    border-radius: 0.3rem;
+    border: 1px solid;
+    padding: 1%;
+}
+::placeholder { /* Most modern browsers support this now. */
+    font-size: 0.8em;
+}
+:focus {
+    outline: none;
+    border-color: #1e6bb8 !important;
+    background-color: rgba(30, 107, 184, 0.05);
+}
+
+.contact-form .btn.block-btn {
+    width: 60%;
+    color: #1e6bb8;
+    border-color: unset;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(30, 107, 184, 0.2);
+    margin: 0 !important;
+}
+.contact-form .btn.block-btn:hover {
+    background-color: rgba(30, 107, 184, 0.4);  
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form .btn.block-btn {
+        width: 100%;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+    }		
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-form .btn.block-btn {
+        width: 80%;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 80%;
+    }		
+}

@@ -6,9 +6,9 @@ layout: default
 
 Here will be the **site content**.
 
-[README.md](README)
+## [README](README)
 
-[another-page.md](another-page)
+## [Contact me!](contact)
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
